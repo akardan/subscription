@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>		
+		<record id="view_mrp_production_twgantt" model="ir.ui.view">
+			<field name="name">mrp.production.twgantt</field>
+			<field name="model">mrp.production</field>
+			<field eval="2" name="priority" />
+			<field name="arch" type="xml">
+				<viin_gantt date_start="date_planned_start"
+					date_stop="date_planned_finished" string="Mrp Production" status="state"
+					default_group_by="product_id" default_order_by="product_id desc, id desc"
+				/>
+			</field>
+		</record>
+	</data>
+</odoo>

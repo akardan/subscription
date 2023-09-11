@@ -1,0 +1,242 @@
+html .gantt-view.o_web_client {
+	position:initial;
+}
+
+.has_gantt .o_content {
+	position: initial !important;
+}
+
+.o_gantt_view {
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+
+.o_gantt_button_dates {
+  display: inline-block;
+}
+
+.ganttButtonBar {
+	padding-left: 16px;
+}
+
+.numerical-order {
+	padding-left: 16px;
+	background-color: #f0f0f0;
+}
+
+#mask {
+	position: absolute;
+    top: 0;
+    left: 0;
+	opacity: 0.5;
+    background: #000;
+}
+
+#workSpace {
+	width: 100%
+}
+
+#workSpace input {
+	display: initial
+}
+
+#workSpace .gdfTable .gdfColHeader {
+	padding-left: 4px;
+    padding-right: 6px;
+	text-align: center;
+    border-color: $gantt_header_border_color;
+	border-top:none;
+}
+
+.ganttHead1 th {
+	text-align: center;
+}
+
+.ganttHead2 .headSmall {
+    position: relative;
+	text-align: center;
+    overflow: visible;
+}
+
+#workSpace .gdfCell {
+	line-height: normal;
+}
+
+.add-task-btn span {
+	font-size: 140%;
+	color:$gantt_btn_color;
+}
+
+.colorByStatus .taskStatusSVG[status=UNDEFINED] .taskLayout{
+  stroke: #ccc;
+  stroke-width:1;
+}
+
+.taskStatusBox {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.taskStatusBox .taskStatus:nth-child(1) {
+	padding-left: 4px;
+}
+
+.taskStatusBox .taskStatus:last-child {
+	padding-right: 4px;
+}
+
+.taskStatus.selected{
+  border:#666 2px solid;
+}
+
+.gdfCell.taskAssigs {
+	padding-left: 10px;
+}
+
+.gdfCell.taskAssigs img {
+	width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.gdfCell.taskAssigs .manager {
+    opacity: 0.5;
+    margin-right: 25px;
+}
+
+.gdfCell.p10 {
+    padding-left: 10px;
+}
+
+.task-alert {
+    cursor: pointer;
+}
+
+.menu-delete-link-group {
+	list-style: none;
+    display: flex;
+    position: absolute;
+    padding: 0;
+	margin-bottom: 0;
+	z-index: 100;
+}
+
+.menu-delete-link-group .menu-item {
+    margin-right: 15px;
+    font-size: 16px;
+    color: #fff;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: green;
+    padding-left: 7px;
+    cursor: pointer;
+    line-height: 26px;
+}
+
+.menu-delete-link-group .menu-item:first-child {
+    padding-left: 6px;
+}
+
+.menu-delete-link-group .menu-item:last-child {
+    margin-right: 0;
+}
+
+#delete-link-group-item {
+    background: red;
+}
+
+.gantt-dialog-warning {
+    position: fixed;
+    padding: 0;
+    margin-bottom: 0;
+    z-index: 100;
+    background-color: #fff;
+    padding: 3px 5px;
+    border: 1px solid #333;
+    -webkit-box-shadow: 9px 6px 14px 0px rgba(0, 0, 0, 0.22);
+    box-shadow: 9px 6px 14px 0px rgba(0, 0, 0, 0.22);
+    padding: 10px;
+    border-radius: 3px;
+    max-width: 300px;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.gantt-dialog-warning ul {
+    padding-left: 20px;
+}
+
+.menu-delete-link-group.off {
+	display: none;
+}
+
+.splitBox2 .ganttHead2 th.holy {
+	background-color: $gantt_header_cell_holy;
+}
+
+.hidden_taskbox {
+	visibility: hidden;
+}
+
+.member-list-tooltip {
+    padding-left: 0;
+}
+
+.member-list-tooltip li{
+   list-style: none;
+   font-size: 12px;
+}
+
+.avatar {
+  padding: inherit;
+  width: inherit;
+  height: inherit;
+  border: none
+}
+
+.member-more-btn {
+    font-weight: bold;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: #dee2e6;
+    display:inline-block;
+    padding-top:2px;
+}
+
+.gantt_milestone_line {
+    stroke-width: 1px;
+    stroke: #b28db4;
+}
+
+.gantt_milestone_line_reached {
+    stroke: #71639e;
+    stroke-width: 2px;
+}
+
+.gantt_milestone {
+    --o-gantt-project-milestone-size: 12px;
+    position: absolute;
+    z-index: 1;
+    background-color: #e5d9e6;
+    border: solid #b28db4 1px;
+    bottom: 0;
+    height: var(--o-gantt-project-milestone-size);
+    right: calc( -1 * var(--o-gantt-project-milestone-size) / 2);
+    width: var(--o-gantt-project-milestone-size);
+    transform: rotate(45deg);
+    transform-origin: center;
+
+    &:hover {
+        cursor: pointer;
+        border: solid black 1px;
+    }
+}
+
+.gantt_milestone_reached {
+    border: solid #71639e 2px;
+    background-color: #71639e;
+}

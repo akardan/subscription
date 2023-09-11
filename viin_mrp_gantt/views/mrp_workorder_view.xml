@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+		<record id="view_mrp_workorder_twgantt" model="ir.ui.view">
+			<field name="name">mrp.workorder.twgantt</field>
+			<field name="model">mrp.workorder</field>
+			<field eval="2" name="priority" />
+			<field name="arch" type="xml">
+				<viin_gantt date_start="date_planned_start" progress="progress"
+					date_stop="date_planned_finished" string="Mrp Workorder"
+					default_group_by="workcenter_id" default_order_by="workcenter_id desc, id desc" status="state"
+				/>
+			</field>
+		</record>
+	</data>
+</odoo>

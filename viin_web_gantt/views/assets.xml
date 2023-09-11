@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>		
+		<template id="compiled_assets_gantt" name="Gantt Chart" groups="base.group_user,base.group_portal">
+		    <t t-call-assets="viin_web_gantt.gantt_assets"/>
+		</template>
+	</data>
+</odoo>

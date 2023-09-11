@@ -1,0 +1,649 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* viin_web_gantt
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-19 07:15+0000\n"
+"PO-Revision-Date: 2022-01-19 07:15+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: viin_web_gantt
+#: code:addons/viin_web_gantt/models/gantt_mixin.py:0
+#, python-format
+msgid "%s other tasks for this employee are scheduled at the same time!"
+msgstr "%s nhiệm vụ khác cho nhân viên này cùng một thời gian"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "(#= getTaskStatusStyle(obj).name #)"
+msgstr ""
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "(#=obj.getAssigsString()#)"
+msgstr ""
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "(#=obj.getRow()+1#)"
+msgstr ""
+
+#. module: viin_web_gantt
+#: model:ir.model,name:viin_web_gantt.model_ir_actions_act_window_view
+msgid "Action Window View"
+msgstr ""
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Active"
+msgstr "Hiệu lực"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "All"
+msgstr "Tất cả"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid "An error has occurred while loading the data. A task has been trashed."
+msgstr "Đã xảy ra lỗi với việc tải dữ liệu. Dữ liệu đã được gỡ bỏ."
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Assignments"
+msgstr "Phân công"
+
+#. module: viin_web_gantt
+#: model:ir.model.fields,field_description:viin_web_gantt.field_gantt_mixin__bad_resource_allocation_task_alert
+msgid "Bad Resource Allocation Alert"
+msgstr "Cảnh báo phân bổ nguồn lực sai"
+
+#. module: viin_web_gantt
+#: model:ir.model,name:viin_web_gantt.model_base
+msgid "Base"
+msgstr "Cơ bản"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid "CANNOT_MOVE_TASK"
+msgstr "Không thể di chuyển dữ liệu"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "CRITICAL_PATH"
+msgstr "Đường găng"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid "Cannot close a task with open issues"
+msgstr "Không thể đóng dữ liệu với vấn đề đang trạng thái mở."
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid "Cannot depend on ancestors."
+msgstr "Không thể phụ thuộc vào dữ liệu cha."
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid "Circular reference."
+msgstr "Tham chiếu lặp"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_controller.js:0
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_controller.js:0
+#, python-format
+msgid "Close"
+msgstr "Đóng"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Completed"
+msgstr "Hoàn thành"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_controller.js:0
+#, python-format
+msgid "Creating failed!"
+msgstr "Không thể tạo bản ghi!"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Day"
+msgstr "Ngày"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Days"
+msgstr "Ngày"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_controller.js:0
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_controller.js:0
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_controller.js:0
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid "Delete"
+msgstr "Xoá"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_controller.js:0
+#, python-format
+msgid "Deleting failed!"
+msgstr "Không thể xóa!"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Description"
+msgstr "Mô tả"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Duration is in working days."
+msgstr "Thời gian nằm trong ngày làm việc."
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Elimina"
+msgstr "Xóa bỏ"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "End"
+msgstr "Kết thúc"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "End date is a milestone."
+msgstr "Ngày kết thúc là cột mốc"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_controller.js:0
+#, python-format
+msgid "Error ! Task starting date must be lower than its ending date."
+msgstr "Lỗi ! Ngày bắt đầu phải nhỏ hơn ngày kết thúc."
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid "Error: due to a descendant of a closed task."
+msgstr "Lỗi: Do phụ thuộc vào một task đã đóng"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid "Error: there is a dependency on an open task."
+msgstr "Lỗi: Có sự phụ thuộc vào task đang mở."
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "FULLSCREEN"
+msgstr "Toàn màn hình"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Failed"
+msgstr "Thất bại"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid "GANNT_ERROR_LOADING_DATA_TASK_REMOVED"
+msgstr ""
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid "Gantt"
+msgstr ""
+
+#. module: viin_web_gantt
+#: model:ir.model.fields.selection,name:viin_web_gantt.selection__ir_actions_act_window_view__view_mode__viin_gantt
+#: model:ir.model.fields.selection,name:viin_web_gantt.selection__ir_ui_view__type__viin_gantt
+msgid "Gantt Chart"
+msgstr "Biểu đồ Gantt"
+
+#. module: viin_web_gantt
+#: model:ir.model,name:viin_web_gantt.model_gantt_mixin
+msgid "Gantt Mixin"
+msgstr ""
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Month"
+msgstr "Tháng"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_controller.js:0
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_controller.js:0
+#, python-format
+msgid "New"
+msgstr "Mới"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid "No permission to change the following task:"
+msgstr "Không có quyền thay đổi task:"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid "PLEASE_SAVE_PROJECT"
+msgstr ""
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Print"
+msgstr "In"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid ""
+"Project update not possible as you lack rights for updating a parent "
+"project."
+msgstr "Không thể cập nhật dự án bởi vì bạn thiếu quyền cập nhật dự án cha."
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid "Quarter"
+msgstr "Quý"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Role"
+msgstr "Vai trò"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_controller.js:0
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_controller.js:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Save"
+msgstr "Lưu"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_controller.js:0
+#, python-format
+msgid "Saving failed!"
+msgstr "Cập nhật thất bại!"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid "Semester"
+msgstr "Kỳ"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Start date is a milestone."
+msgstr "Ngày bắt đầu là cột mốc."
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Start with Twproject"
+msgstr ""
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Suspended"
+msgstr "Bị đình chỉ"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Task editor"
+msgstr ""
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid "Task has constraints."
+msgstr "Dữ liệu có ràng buộc."
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid "The data inserted are invalid for the field format."
+msgstr "Dữ liệu được thêm không hợp lệ đối với trường này."
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_pdf.js:0
+#, python-format
+msgid "There is no tasks!"
+msgstr "Dữ liệu không tồn tại!"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid "This task has external dependencies."
+msgstr "Dữ liệu có phụ thuộc bên ngoài"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Today"
+msgstr "Hôm nay"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Undefined"
+msgstr "Không xác định"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid "Unknown"
+msgstr ""
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_controller.js:0
+#, python-format
+msgid "Update sequence failed!"
+msgstr "Cập nhật trình tự lỗi!"
+
+#. module: viin_web_gantt
+#: model:ir.model,name:viin_web_gantt.model_ir_ui_view
+msgid "View"
+msgstr "Giao diện"
+
+#. module: viin_web_gantt
+#: model:ir.model.fields,field_description:viin_web_gantt.field_ir_actions_act_window_view__view_mode
+#: model:ir.model.fields,field_description:viin_web_gantt.field_ir_ui_view__type
+msgid "View Type"
+msgstr "Kiểu Giao diện"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_view.js:0
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_view.js:0
+#, python-format
+msgid "Viin Gantt"
+msgstr ""
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Waiting"
+msgstr "Chờ"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Week"
+msgstr "Tuần"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "Year"
+msgstr "Năm"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/js/viin_gantt_renderer.js:0
+#, python-format
+msgid "You cannot exchange tasks of different depth."
+msgstr "Bạn không thể trao đổi dữ liệu giữ các nhóm."
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "add"
+msgstr ""
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "assignees"
+msgstr "Phân công"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "calendar"
+msgstr "Lịch"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "code/short name"
+msgstr "mã/tên rút gọn"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "collaborate"
+msgstr "Hợp tác"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "depe."
+msgstr "Phụ thuộc"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "dur."
+msgstr "Thời gian"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "est.wklg."
+msgstr ""
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "insert above"
+msgstr "Thêm vào bên trên"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "insert below"
+msgstr "Thêm vào bên dưới"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "is milestone"
+msgstr "là cột mốc"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "login/enroll"
+msgstr "Đăng nhập/Ghi danh"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "move down"
+msgstr "Di chuyển xuống"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "move up"
+msgstr "Di chuyển lên"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "name"
+msgstr "tên"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "progress"
+msgstr "Tiến trình"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "start"
+msgstr "bắt đầu"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "status"
+msgstr "trạng thái"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "zoom in"
+msgstr "phóng to"
+
+#. module: viin_web_gantt
+#. openerp-web
+#: code:addons/viin_web_gantt/static/src/xml/viin_web_gantt.xml:0
+#, python-format
+msgid "zoom out"
+msgstr "thu nhỏ"
