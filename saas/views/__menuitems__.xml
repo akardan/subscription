@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <menuitem name="SAAS" id="saas_root_menu"
+        groups="base.group_user"  
+        sequence="2" />
+        <menuitem name="Planning" 
+            id="plan_saas" 
+            action="saas_plans_action"
+            parent="saas.saas_root_menu"
+            sequence="1"
+        />
+        <menuitem id="product_saas"
+            name="Products"
+            groups="sales_team.group_sale_salesman"
+            parent="saas.saas_root_menu"
+            sequence="2">
+
+            <menuitem id="saas_product_template"
+                action="sale.product_template_action"
+                sequence="10"/>
+            <menuitem id="saas_product_variant"
+                action="product.product_normal_action_sell"
+                groups="product.group_product_variant"
+                sequence="20"/>
+            <menuitem id="saas_product_pricelist"
+                name="Pricelists"
+                action="product.product_pricelist_action2"
+                groups="product.group_product_pricelist"
+                sequence="30"/>
+
+        </menuitem>
+
+        <menuitem name="Configuration" 
+            id="config_saas" 
+            parent="saas.saas_root_menu"
+        />
+        <!-- <menuitem action="odoo_saas_kit.saas_server_action" sequence="1" id="saas_server_action_menu" parent="odoo_saas_kit.saas_config_menu" />
+        <menuitem action="odoo_saas_kit.saas_module_category_action" sequence="2" id="saas_module_category_menu" parent="odoo_saas_kit.saas_config_menu"/>
+        <menuitem action="odoo_saas_kit.saas_module_action" id="saas_module_menu" parent="odoo_saas_kit.saas_config_menu"/>
+        <menuitem action="odoo_saas_kit.saas_contract_action" sequence="2" id="menu_contract_menu" parent="odoo_saas_kit.menu_saas"/>
+        <menuitem action="odoo_saas_kit.saas_client_action" sequence="3" id="menu_client_menu" parent="odoo_saas_kit.menu_saas"/> -->
+    </data>
+</odoo>
