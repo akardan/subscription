@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<function name="_add_project_gantt_view"
+			model="ir.actions.act_window.view" />
+	</data>
+</odoo>

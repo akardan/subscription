@@ -1,0 +1,14 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>		
+		<record id="project_project_gantt_view" model="ir.ui.view">
+			<field name="name">project_project_gantt_view</field>
+			<field name="model">project.project</field>
+			<field eval="2" name="priority" />
+			<field name="arch" type="xml">
+				<webgantt/>
+			</field>
+		</record>
+	</data>
+</odoo>

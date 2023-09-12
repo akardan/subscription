@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+             xmlns:a="http://relaxng.org/ns/annotation/1.0"
+             datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+
+    <start>
+        <ref name="webgantt" />
+    </start>
+
+    <define name="webgantt">
+        <element name="webgantt">
+    		<attribute name="string"><text/></attribute>
+            <attribute name="date_start"><text/></attribute>
+            <attribute name="date_stop"><text/></attribute>
+            <attribute name="default_group_by"><text/></attribute>
+            <optional>
+                <attribute name="child_ids"><text/></attribute>
+            </optional>
+            <optional>
+                <attribute name="parent_id"><text/></attribute>
+            </optional>
+            <optional>
+                <attribute name="js_class"><text/></attribute>
+            </optional>
+            <optional>
+            	<attribute name="default_order_by"><text/></attribute>
+            </optional>
+            <optional>
+            	<attribute name="progress"><text/></attribute>
+            </optional>
+            <optional>
+            	<attribute name="depends"><text/></attribute>
+            </optional>
+            <optional>
+            	<attribute name="manager"><text/></attribute>
+            </optional>
+            <optional>
+            	<attribute name="members"><text/></attribute>
+            </optional>
+            <optional>
+            	<ref name="status_definition"/>
+            </optional>
+            <optional>
+            	<attribute name="holiday">
+            		<choice>
+	            		<value>0</value>
+	            		<value>1</value>
+            		</choice>
+            	</attribute>
+            </optional>
+            <optional><attribute name="colors" /></optional>
+            <optional>
+            	<attribute name="status_readonly">
+            		<choice>
+	            		<value>0</value>
+	            		<value>1</value>
+            		</choice>
+            	</attribute>
+            </optional>
+        </element>
+    </define>
+    <!-- the field index_color_field  and field_status must go together, if status = state there must be not 2 that field -->
+    <define name="status_definition">
+      <choice>
+      	<group>
+          	<attribute name="index_color_field"><text/></attribute>
+          	<attribute name="field_status"><text/></attribute>
+          	<optional>
+            	<attribute name="fetch_color"><text/></attribute>
+            </optional>
+            <optional>
+            	<attribute name="filter_stage_condition"><text/></attribute>
+            </optional>
+            <optional>
+                <attribute name="task_alert">
+                    <choice>
+                        <value>0</value>
+                        <value>1</value>
+                    </choice>
+                </attribute>
+            </optional>
+      	</group>
+      	<group>
+      		<attribute name="status">
+      			<value>state</value>
+      		</attribute>
+      	</group>
+      </choice>
+    </define>
+</grammar>
